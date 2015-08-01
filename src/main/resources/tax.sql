@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS tax_allowance(
   allowance_amount DECIMAL NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS tax_rate (
+CREATE TABLE IF NOT EXISTS tax_rat (
   id INTEGER  PRIMARY KEY NOT NULL auto_increment,
   rate DECIMAL NOT NULL,
   range_id INTEGER,
