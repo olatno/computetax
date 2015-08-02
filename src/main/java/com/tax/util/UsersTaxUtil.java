@@ -81,9 +81,9 @@ public class UsersTaxUtil {
                 return  summary;
             }
             else{
-                taxList.add(String.format("%.2f", "0"));
-                taxList.add(String.format("%.2f", "0"));
-                taxList.add(String.format("%.2f", "0"));
+                taxList.add("0.00");
+                taxList.add("0.00");
+                taxList.add("0.00");
                 summary.add(taxList);
                 return  summary;
 
